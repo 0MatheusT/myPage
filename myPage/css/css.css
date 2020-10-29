@@ -1,0 +1,98 @@
+body{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-color: black;
+    box-sizing: border-box;
+}
+
+H1,p{
+    color: white;
+}
+
+.container{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.navBar{
+    position:absolute;
+    top: 0;
+    display: flex;
+    width: 100%;
+    height: 3rem;
+    background-color: rgb(179, 179, 179);
+    text-align: center;
+    justify-content: space-around;
+}
+
+.buttonNav{
+    height: 3em;
+    width: 3em;
+    border-radius: 50%;
+    margin: auto;
+    background-size: cover;
+    
+}
+
+.buttonNav:hover{
+    background-color: grey;
+}
+
+.buttonNav:nth-child(1){
+    background-image: url('../img/email.png');
+    background-repeat: no-repeat;
+}
+
+.buttonNav:nth-child(2){
+    background-image: url('../img/github.svg');
+    background-repeat: no-repeat;
+}
+
+.buttonNav:nth-child(3){
+    background-image: url('../img/linkedin.svg');
+    background-repeat: no-repeat;
+}
+
+.body{
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.perfilPicture{
+    margin-top: 2rem;
+    border-radius: 50%;
+    height: 10rem;
+    border: 0.3rem solid rgb(179, 179, 179) ;
+
+}
+.bio{
+    color: rgb(179, 179, 179) ;
+    text-align: center;
+}
+
+.footer{
+    position:absolute;
+    flex-direction: column;
+    bottom:0;
+    width:100%;
+    background-color: rgb(179, 179, 179);
+    display: flex;
+    height: 5%;
+    justify-content: center;
+    text-align: center;
+}
+.footerText{
+    color: black;
+    text-align: center;
+    justify-content: center;
+    font-size: 1rem;
+}
